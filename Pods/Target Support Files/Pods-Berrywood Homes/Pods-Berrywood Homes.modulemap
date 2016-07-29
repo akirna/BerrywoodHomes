@@ -1,0 +1,6 @@
+framework module Pods_Berrywood_Homes {
+  umbrella header "Pods-Berrywood Homes-umbrella.h"
+
+  export *
+  module * { export * }
+}

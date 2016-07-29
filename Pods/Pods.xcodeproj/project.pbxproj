@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0035E280E2227924AC4E2F8B3D44EF6B /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D9D90B01CC0335992694EFF5759728 /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		050D31F1ACF003324524127CC92E1C6F /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D1718047F17BE7C1519F2B61B7A24392 /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146EA652DBF62F28CFB6A3001693A9D8 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF3DB488C894C9555A17046E175CBA /* UITextView+TCCustomFont.m */; };
+		27353A00D5ACFE9ADDDC725CABB69879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2B3C98BF6B534DD54B2918F45B66A324 /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7936E53764390FF76D7B1E08770448 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37437BE1DBC4C60EEF23B79D6C994BF8 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51129BC25AB3116AE14D04B3A08D4B02 /* CSAnimationView.m */; };
+		38BD94D77A0EB3BCFDE2BA74A04AD9FA /* Pods-Berrywood HomesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 737F3CC21C6762D26D8EE8A669AAB56A /* Pods-Berrywood HomesUITests-dummy.m */; };
+		4DF74E493574798D40330DF60339EB3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4F3DF3C44C278FE44AD44BA7C7FFE416 /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3254A92CDACE593531C8E5D79E6908EF /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51DB856BD58ADC66EAF464260C9BB683 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E996C1AFD5AD95029814E9519D1CF790 /* CSNavigationController.m */; };
+		5414F00C4C79BA786A9AA266BF693234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		662C71BB07B541650F00C223691E8902 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 82274346622B42FF3ECB7C391AFF1F7B /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E81D6CC01FE0E9B746A8C23B2C54207 /* Pods-Berrywood Homes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB726A53135F29F092B12375E1C8050F /* Pods-Berrywood Homes-dummy.m */; };
+		A2EAB23D235F8B41E28A14ADD16542A9 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D29915A81C281EE94431DDD3E164E6 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC586CED2EEF5EE8E7DF3ADB00A25A7 /* Pods-Berrywood HomesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8AACDE337A7B1EF790DC4481B7836F7 /* Pods-Berrywood HomesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC69A322D25E4C061D7B00E62DFE6A4 /* Pods-Berrywood Homes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CFE9F2FACE2EA272B9D265484C2E1B5 /* Pods-Berrywood Homes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC488F45D3A9C38837FEB1DFD4CB104 /* Pods-Berrywood HomesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE495D2CCC1338198295B0FCEB2532 /* Pods-Berrywood HomesTests-dummy.m */; };
+		AE024FC0C6A794A8BC3B113BF63E836A /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6365A9DD7344563D0F8D9AB4064FAF /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B37A4CE3AE562C1B0715F69687E6644A /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 219368DDA30C5AAD859559F8ADF131EF /* CSBlurView.m */; };
+		C12996EA896ABDF39A40FC94315EA238 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D0701EDD7C5E068E3729369F4177677B /* UILabel+TCCustomFont.m */; };
+		C5703AD94DB5E55AF9A2D572CC81A08B /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A79D219B6717F261F1B7A8D725DB1 /* Canvas-dummy.m */; };
+		C9EA18F788CF76E49B34C3B12A42200D /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA0EE6C2978470D6330641CEBFA0804 /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9EA82F545BB2D13A0B32FF3A9FFF1C /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B712BE6EBF185A616C55717DD6AD1 /* CSAnimation.m */; };
+		D48B2522EF3D35210840DFF235E29288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DAD9483A8C579DE8A0561E2EC91736EB /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E15BA9420E6E94464E0BA274A911FB93 /* UINavigationBar+TCCustomFont.m */; };
+		DB678D6A80AE82C0E08F121230FADB12 /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = A93733BF22C96535C7A9FC105D526269 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0DB59C5A2FC7EF534D4BFE1F45BFDC /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEDD158B5FB68DF2FDFC652B0FC7436 /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF9556B6C0FBC1894056CA9E9DFFC0E5 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBA9DE2B3645625032E6AB9FED9F02E /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0280B7E837B585206DACE6B58CBA14A /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F7B0C64094CB24F02C1A1FA1162B1A /* UIButton+TCCustomFont.m */; };
+		E064A372B02C1DB0F4DD763CAD500BA1 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 6559DA8F89C282C52D9F39B99F0D1F85 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5B971D15FBDC0083D0515E9CA736EAD /* Pods-Berrywood HomesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF2EBD46AA302572EE25BFC299539F4 /* Pods-Berrywood HomesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F36FC5C3F71A1B956F4D4837202295AF /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E5DD0269BAC7E23F5EA6476757637 /* UITextField+TCCustomFont.m */; };
+		FF638CC4A9134346D3A7831C880CF8CC /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2B89BBDD227DD32031CE46ED8F2E9 /* UITextField+PlaceholderColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		807498168AC82C16EA5A268B5B70E2E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CBCC225074FD190F9BEA2940592423;
+			remoteInfo = Canvas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7466D61AEB68AD5518435AE8232A74 /* Pods-Berrywood HomesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood HomesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D0A79D219B6717F261F1B7A8D725DB1 /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
+		0E55015514DACBACE47DCCEFDE8C7878 /* Pods-Berrywood Homes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Berrywood Homes-acknowledgements.plist"; sourceTree = "<group>"; };
+		10DE495D2CCC1338198295B0FCEB2532 /* Pods-Berrywood HomesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Berrywood HomesTests-dummy.m"; sourceTree = "<group>"; };
+		12C7F484AD275AFBBC393EFE39FC9D26 /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		167D095F2056A3ED468CA600FD825497 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5E67A44925809178C8E4BCC235F106 /* Pods-Berrywood HomesUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood HomesUITests-resources.sh"; sourceTree = "<group>"; };
+		219368DDA30C5AAD859559F8ADF131EF /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		21D9D90B01CC0335992694EFF5759728 /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		2D35940E8F004FA67B8D9115C75F4D61 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		3254A92CDACE593531C8E5D79E6908EF /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		33F0B4D12FB53F570C6E5277F45CF10B /* Pods-Berrywood HomesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood HomesTests.release.xcconfig"; sourceTree = "<group>"; };
+		34FF3DB488C894C9555A17046E175CBA /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		367D873F253F5E3DDD53668EB9CBA402 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		3CFE9F2FACE2EA272B9D265484C2E1B5 /* Pods-Berrywood Homes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Berrywood Homes-umbrella.h"; sourceTree = "<group>"; };
+		3FF2EBD46AA302572EE25BFC299539F4 /* Pods-Berrywood HomesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Berrywood HomesUITests-umbrella.h"; sourceTree = "<group>"; };
+		40EE0BF2769101E7291B8B559782F6CC /* Pods_Berrywood_HomesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berrywood_HomesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		439FE408924FC452BBCEC6CA61DA47E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47111ADF052FE6024C2CD58DDC497E22 /* Pods-Berrywood HomesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Berrywood HomesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C0356AC80D7DE6B7CCAE3F4614E868C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D05263A53304C17D8EEA337081A558C /* Pods_Berrywood_HomesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berrywood_HomesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9E5DD0269BAC7E23F5EA6476757637 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		51129BC25AB3116AE14D04B3A08D4B02 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		58B71AF86A51049173E346E81235793D /* Pods-Berrywood HomesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Berrywood HomesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6021A215735B49FFE7583D0E90FEB223 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607D6DA239F906D2B08DABACA56F2F85 /* Pods-Berrywood HomesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Berrywood HomesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60C2B89BBDD227DD32031CE46ED8F2E9 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		6559DA8F89C282C52D9F39B99F0D1F85 /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		6B16B13146F6CC73DFCBFA454EA28E4D /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		6DD6B15188A58D3205B431969807E7ED /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		727768B162DD5FE78E4B559E18CDCC8C /* Pods-Berrywood HomesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood HomesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		737F3CC21C6762D26D8EE8A669AAB56A /* Pods-Berrywood HomesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Berrywood HomesUITests-dummy.m"; sourceTree = "<group>"; };
+		78749234572EBEACE576D044E4DB7DD7 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		7A054C9F958BDCA141DA8CCD1A4DB2C6 /* Pods-Berrywood HomesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Berrywood HomesTests.modulemap"; sourceTree = "<group>"; };
+		7C46BB9213BB61969B5D35455491DDD9 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		7C91CA849BE631EBE6079A095011FE1B /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Canvas.modulemap; sourceTree = "<group>"; };
+		7D25401D70B1D65857604E3B51695E70 /* Pods-Berrywood HomesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Berrywood HomesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82274346622B42FF3ECB7C391AFF1F7B /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		83C3ABDB5DCAE634919182D33BFC1E9D /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		8BEFA6D5A20A1693278A8F4DC8F3BB97 /* Pods-Berrywood HomesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood HomesUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8EA8D8722872A992C29C0B1DFDD433F6 /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		988267D212693A1B382F1287DC506F06 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		A8AACDE337A7B1EF790DC4481B7836F7 /* Pods-Berrywood HomesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Berrywood HomesTests-umbrella.h"; sourceTree = "<group>"; };
+		A9074E8CF5A536DE596270C10FF86C8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93733BF22C96535C7A9FC105D526269 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		A993FC6BE9E6642F74BCFAE0B6526C34 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		A9F7B0C64094CB24F02C1A1FA1162B1A /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		AA177A3A8E4E2D6243AABCA6A1688E6B /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		AE7C3CCEEF579A5FD57D7E2CB15D895D /* Pods_Berrywood_Homes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berrywood_Homes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B427A9FB9AEC087BBE20CCB1814365F7 /* Pods-Berrywood Homes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood Homes.debug.xcconfig"; sourceTree = "<group>"; };
+		B42F40E2D3E51E7C4BC79BB8154CEB1F /* Pods-Berrywood Homes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Berrywood Homes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B93250AEBEA4B15CFB118296137DEAB2 /* Pods-Berrywood Homes-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood Homes-resources.sh"; sourceTree = "<group>"; };
+		B93F6EFCF0D631E21C8E4BD9EE69A8F3 /* Pods-Berrywood HomesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Berrywood HomesUITests.modulemap"; sourceTree = "<group>"; };
+		BB2B712BE6EBF185A616C55717DD6AD1 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		C3D29915A81C281EE94431DDD3E164E6 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		CB743ABC7D1C8B10F6FA01C9BF7D4432 /* Pods-Berrywood Homes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Berrywood Homes.modulemap"; sourceTree = "<group>"; };
+		CBB65B685B28776E85AC9796840CF66D /* Pods-Berrywood HomesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood HomesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD1699D3C92C48D69AA8239DBE5C7A14 /* Pods-Berrywood HomesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood HomesTests-resources.sh"; sourceTree = "<group>"; };
+		CE7936E53764390FF76D7B1E08770448 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0701EDD7C5E068E3729369F4177677B /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		D1718047F17BE7C1519F2B61B7A24392 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		DB726A53135F29F092B12375E1C8050F /* Pods-Berrywood Homes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Berrywood Homes-dummy.m"; sourceTree = "<group>"; };
+		DCBA9DE2B3645625032E6AB9FED9F02E /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		E04E8BD7D259846DEC6CEAD7E355A2A9 /* Pods-Berrywood HomesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood HomesTests-frameworks.sh"; sourceTree = "<group>"; };
+		E15BA9420E6E94464E0BA274A911FB93 /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		E656B01EB75C1B5B270C63DE4F0DFAB1 /* Pods-Berrywood Homes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood Homes.release.xcconfig"; sourceTree = "<group>"; };
+		E996C1AFD5AD95029814E9519D1CF790 /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		EAA0EE6C2978470D6330641CEBFA0804 /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		ECEDD158B5FB68DF2FDFC652B0FC7436 /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
+		F17C7CFFB6D2CD740DE78C67E15A2D0D /* Pods-Berrywood Homes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood Homes-frameworks.sh"; sourceTree = "<group>"; };
+		FA6365A9DD7344563D0F8D9AB4064FAF /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		FCBB51AEBE98881F5343C94A59414C55 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72EF3D9BCB11559170E315BFEAAB0B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27353A00D5ACFE9ADDDC725CABB69879 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F630C9A169625A78DE610D84C15C2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5414F00C4C79BA786A9AA266BF693234 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910A477B8028CFF2267C8C9B8791CCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48B2522EF3D35210840DFF235E29288 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F79E44E51F99E3C6EC67FAB6667EBF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF74E493574798D40330DF60339EB3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E117808C05764445020B333728C89C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C91CA849BE631EBE6079A095011FE1B /* Canvas.modulemap */,
+				8EA8D8722872A992C29C0B1DFDD433F6 /* Canvas.xcconfig */,
+				0D0A79D219B6717F261F1B7A8D725DB1 /* Canvas-dummy.m */,
+				12C7F484AD275AFBBC393EFE39FC9D26 /* Canvas-prefix.pch */,
+				ECEDD158B5FB68DF2FDFC652B0FC7436 /* Canvas-umbrella.h */,
+				A9074E8CF5A536DE596270C10FF86C8D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Canvas";
+			sourceTree = "<group>";
+		};
+		023D1B5098985E588B8641CE59722689 /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				93CE4B59FD5086600A0EA9A3A0E36147 /* Frameworks */,
+			);
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		044C008260874B68539AB5CE43C4DE24 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				A993FC6BE9E6642F74BCFAE0B6526C34 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		0A17E18D4F06AE605DD2C33799EE3945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCBB51AEBE98881F5343C94A59414C55 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C440B44CC67E28152791EE8631A794D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				367D873F253F5E3DDD53668EB9CBA402 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1288F6DE7A52E90531F06CCC2C623323 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				044C008260874B68539AB5CE43C4DE24 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		18F68896E01642F3A2E092507A43DE53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				701D3EA96B9B5367AB019D4AE670329F /* Pods-Berrywood Homes */,
+				CAC39D00F04A3DD28971D173F5487E7E /* Pods-Berrywood HomesTests */,
+				5A2E57BE12A9451087AEA35630DBCD51 /* Pods-Berrywood HomesUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C3E78427222018AD1CC3A936947107F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D35940E8F004FA67B8D9115C75F4D61 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A2E57BE12A9451087AEA35630DBCD51 /* Pods-Berrywood HomesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C0356AC80D7DE6B7CCAE3F4614E868C /* Info.plist */,
+				B93F6EFCF0D631E21C8E4BD9EE69A8F3 /* Pods-Berrywood HomesUITests.modulemap */,
+				58B71AF86A51049173E346E81235793D /* Pods-Berrywood HomesUITests-acknowledgements.markdown */,
+				47111ADF052FE6024C2CD58DDC497E22 /* Pods-Berrywood HomesUITests-acknowledgements.plist */,
+				737F3CC21C6762D26D8EE8A669AAB56A /* Pods-Berrywood HomesUITests-dummy.m */,
+				8BEFA6D5A20A1693278A8F4DC8F3BB97 /* Pods-Berrywood HomesUITests-frameworks.sh */,
+				1A5E67A44925809178C8E4BCC235F106 /* Pods-Berrywood HomesUITests-resources.sh */,
+				3FF2EBD46AA302572EE25BFC299539F4 /* Pods-Berrywood HomesUITests-umbrella.h */,
+				0C7466D61AEB68AD5518435AE8232A74 /* Pods-Berrywood HomesUITests.debug.xcconfig */,
+				CBB65B685B28776E85AC9796840CF66D /* Pods-Berrywood HomesUITests.release.xcconfig */,
+			);
+			name = "Pods-Berrywood HomesUITests";
+			path = "Target Support Files/Pods-Berrywood HomesUITests";
+			sourceTree = "<group>";
+		};
+		60C6672FAB56688ADEA05DD9619ACAD3 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				D721CE5670DE67641F0321B686D6EE62 /* Frameworks */,
+				E4AF19F6E2C53DDDD4E6A260A0466D15 /* Resources */,
+			);
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		6211D8A87F314F980E0BFB68E56956E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E142970CEA209450F194F8D6FBEA5662 /* Canvas */,
+				D74E482EB97D41F46283E91BAB0B28AF /* Fabric */,
+				1288F6DE7A52E90531F06CCC2C623323 /* Firebase */,
+				D1D2E2559FD5938AC5152D58CF8E7DD6 /* FirebaseAnalytics */,
+				B86079E33CA3499AC844397493BB89B1 /* FirebaseInstanceID */,
+				B614E23CD97489732C972EB038C1D941 /* GoogleInterchangeUtilities */,
+				98BDB6EF91C2D6CF4645A1FE7E2DD4E5 /* GoogleSymbolUtilities */,
+				F4B510794CD807757960D3E7A4876DCE /* GoogleUtilities */,
+				023D1B5098985E588B8641CE59722689 /* TwitterCore */,
+				60C6672FAB56688ADEA05DD9619ACAD3 /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		701D3EA96B9B5367AB019D4AE670329F /* Pods-Berrywood Homes */ = {
+			isa = PBXGroup;
+			children = (
+				167D095F2056A3ED468CA600FD825497 /* Info.plist */,
+				CB743ABC7D1C8B10F6FA01C9BF7D4432 /* Pods-Berrywood Homes.modulemap */,
+				B42F40E2D3E51E7C4BC79BB8154CEB1F /* Pods-Berrywood Homes-acknowledgements.markdown */,
+				0E55015514DACBACE47DCCEFDE8C7878 /* Pods-Berrywood Homes-acknowledgements.plist */,
+				DB726A53135F29F092B12375E1C8050F /* Pods-Berrywood Homes-dummy.m */,
+				F17C7CFFB6D2CD740DE78C67E15A2D0D /* Pods-Berrywood Homes-frameworks.sh */,
+				B93250AEBEA4B15CFB118296137DEAB2 /* Pods-Berrywood Homes-resources.sh */,
+				3CFE9F2FACE2EA272B9D265484C2E1B5 /* Pods-Berrywood Homes-umbrella.h */,
+				B427A9FB9AEC087BBE20CCB1814365F7 /* Pods-Berrywood Homes.debug.xcconfig */,
+				E656B01EB75C1B5B270C63DE4F0DFAB1 /* Pods-Berrywood Homes.release.xcconfig */,
+			);
+			name = "Pods-Berrywood Homes";
+			path = "Target Support Files/Pods-Berrywood Homes";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6211D8A87F314F980E0BFB68E56956E4 /* Pods */,
+				A857E1DD3DEDA4EA6A8F24D251BAA781 /* Products */,
+				18F68896E01642F3A2E092507A43DE53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93CE4B59FD5086600A0EA9A3A0E36147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DD6B15188A58D3205B431969807E7ED /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98AD1E3FE9BB5C2143102EA9B46C640F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				988267D212693A1B382F1287DC506F06 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98BDB6EF91C2D6CF4645A1FE7E2DD4E5 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0A17E18D4F06AE605DD2C33799EE3945 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		A5A2EB154379038A6796F7A9AD9006A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA177A3A8E4E2D6243AABCA6A1688E6B /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A857E1DD3DEDA4EA6A8F24D251BAA781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6021A215735B49FFE7583D0E90FEB223 /* Canvas.framework */,
+				AE7C3CCEEF579A5FD57D7E2CB15D895D /* Pods_Berrywood_Homes.framework */,
+				4D05263A53304C17D8EEA337081A558C /* Pods_Berrywood_HomesTests.framework */,
+				40EE0BF2769101E7291B8B559782F6CC /* Pods_Berrywood_HomesUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B614E23CD97489732C972EB038C1D941 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2EB154379038A6796F7A9AD9006A5 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		B86079E33CA3499AC844397493BB89B1 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				6B16B13146F6CC73DFCBFA454EA28E4D /* FIRInstanceID.h */,
+				0C440B44CC67E28152791EE8631A794D /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAC39D00F04A3DD28971D173F5487E7E /* Pods-Berrywood HomesTests */ = {
+			isa = PBXGroup;
+			children = (
+				439FE408924FC452BBCEC6CA61DA47E4 /* Info.plist */,
+				7A054C9F958BDCA141DA8CCD1A4DB2C6 /* Pods-Berrywood HomesTests.modulemap */,
+				607D6DA239F906D2B08DABACA56F2F85 /* Pods-Berrywood HomesTests-acknowledgements.markdown */,
+				7D25401D70B1D65857604E3B51695E70 /* Pods-Berrywood HomesTests-acknowledgements.plist */,
+				10DE495D2CCC1338198295B0FCEB2532 /* Pods-Berrywood HomesTests-dummy.m */,
+				E04E8BD7D259846DEC6CEAD7E355A2A9 /* Pods-Berrywood HomesTests-frameworks.sh */,
+				CD1699D3C92C48D69AA8239DBE5C7A14 /* Pods-Berrywood HomesTests-resources.sh */,
+				A8AACDE337A7B1EF790DC4481B7836F7 /* Pods-Berrywood HomesTests-umbrella.h */,
+				727768B162DD5FE78E4B559E18CDCC8C /* Pods-Berrywood HomesTests.debug.xcconfig */,
+				33F0B4D12FB53F570C6E5277F45CF10B /* Pods-Berrywood HomesTests.release.xcconfig */,
+			);
+			name = "Pods-Berrywood HomesTests";
+			path = "Target Support Files/Pods-Berrywood HomesTests";
+			sourceTree = "<group>";
+		};
+		D1D2E2559FD5938AC5152D58CF8E7DD6 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE675C34ACB7366A6C5FED00BE5EE4 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		D721CE5670DE67641F0321B686D6EE62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78749234572EBEACE576D044E4DB7DD7 /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D74E482EB97D41F46283E91BAB0B28AF /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				3C3E78427222018AD1CC3A936947107F /* Frameworks */,
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		DDBE675C34ACB7366A6C5FED00BE5EE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83C3ABDB5DCAE634919182D33BFC1E9D /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E142970CEA209450F194F8D6FBEA5662 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				6559DA8F89C282C52D9F39B99F0D1F85 /* Canvas.h */,
+				3254A92CDACE593531C8E5D79E6908EF /* CSAnimation.h */,
+				BB2B712BE6EBF185A616C55717DD6AD1 /* CSAnimation.m */,
+				EAA0EE6C2978470D6330641CEBFA0804 /* CSAnimationView.h */,
+				51129BC25AB3116AE14D04B3A08D4B02 /* CSAnimationView.m */,
+				21D9D90B01CC0335992694EFF5759728 /* CSBlurView.h */,
+				219368DDA30C5AAD859559F8ADF131EF /* CSBlurView.m */,
+				C3D29915A81C281EE94431DDD3E164E6 /* CSNavigationController.h */,
+				E996C1AFD5AD95029814E9519D1CF790 /* CSNavigationController.m */,
+				FA6365A9DD7344563D0F8D9AB4064FAF /* UIButton+TCCustomFont.h */,
+				A9F7B0C64094CB24F02C1A1FA1162B1A /* UIButton+TCCustomFont.m */,
+				82274346622B42FF3ECB7C391AFF1F7B /* UILabel+TCCustomFont.h */,
+				D0701EDD7C5E068E3729369F4177677B /* UILabel+TCCustomFont.m */,
+				DCBA9DE2B3645625032E6AB9FED9F02E /* UINavigationBar+TCCustomFont.h */,
+				E15BA9420E6E94464E0BA274A911FB93 /* UINavigationBar+TCCustomFont.m */,
+				A93733BF22C96535C7A9FC105D526269 /* UITextField+PlaceholderColor.h */,
+				60C2B89BBDD227DD32031CE46ED8F2E9 /* UITextField+PlaceholderColor.m */,
+				CE7936E53764390FF76D7B1E08770448 /* UITextField+TCCustomFont.h */,
+				4F9E5DD0269BAC7E23F5EA6476757637 /* UITextField+TCCustomFont.m */,
+				D1718047F17BE7C1519F2B61B7A24392 /* UITextView+TCCustomFont.h */,
+				34FF3DB488C894C9555A17046E175CBA /* UITextView+TCCustomFont.m */,
+				00E117808C05764445020B333728C89C /* Support Files */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		E4AF19F6E2C53DDDD4E6A260A0466D15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C46BB9213BB61969B5D35455491DDD9 /* TwitterKitResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4B510794CD807757960D3E7A4876DCE /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				98AD1E3FE9BB5C2143102EA9B46C640F /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DF239C2E1C8CCD0F47007BB3AEF601B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC586CED2EEF5EE8E7DF3ADB00A25A7 /* Pods-Berrywood HomesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D2DEE5F2ACADAF8DC0B4772E36CC6C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0DB59C5A2FC7EF534D4BFE1F45BFDC /* Canvas-umbrella.h in Headers */,
+				E064A372B02C1DB0F4DD763CAD500BA1 /* Canvas.h in Headers */,
+				4F3DF3C44C278FE44AD44BA7C7FFE416 /* CSAnimation.h in Headers */,
+				C9EA18F788CF76E49B34C3B12A42200D /* CSAnimationView.h in Headers */,
+				0035E280E2227924AC4E2F8B3D44EF6B /* CSBlurView.h in Headers */,
+				A2EAB23D235F8B41E28A14ADD16542A9 /* CSNavigationController.h in Headers */,
+				AE024FC0C6A794A8BC3B113BF63E836A /* UIButton+TCCustomFont.h in Headers */,
+				662C71BB07B541650F00C223691E8902 /* UILabel+TCCustomFont.h in Headers */,
+				DF9556B6C0FBC1894056CA9E9DFFC0E5 /* UINavigationBar+TCCustomFont.h in Headers */,
+				DB678D6A80AE82C0E08F121230FADB12 /* UITextField+PlaceholderColor.h in Headers */,
+				2B3C98BF6B534DD54B2918F45B66A324 /* UITextField+TCCustomFont.h in Headers */,
+				050D31F1ACF003324524127CC92E1C6F /* UITextView+TCCustomFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D37FEE1E1A774B92CEFAB98BBD6C76C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC69A322D25E4C061D7B00E62DFE6A4 /* Pods-Berrywood Homes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90760CE1D7196C680A168A5A633A1D39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B971D15FBDC0083D0515E9CA736EAD /* Pods-Berrywood HomesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		045EC3B81885F2879B7D30F4A48BC4D5 /* Pods-Berrywood Homes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DFA52306F740FC4DECCB6E8994889B /* Build configuration list for PBXNativeTarget "Pods-Berrywood Homes" */;
+			buildPhases = (
+				F8DB1E2A4624375C3C9642DC019CBF2C /* Sources */,
+				F79E44E51F99E3C6EC67FAB6667EBF92 /* Frameworks */,
+				8D37FEE1E1A774B92CEFAB98BBD6C76C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13FC44662C3B77E49E46041220CCA0E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Berrywood Homes";
+			productName = "Pods-Berrywood Homes";
+			productReference = AE7C3CCEEF579A5FD57D7E2CB15D895D /* Pods_Berrywood_Homes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6652C1DF934CCB6AE024F9B81BDACE09 /* Pods-Berrywood HomesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E09ECEE89E30BC2CA79580952CE2D69 /* Build configuration list for PBXNativeTarget "Pods-Berrywood HomesTests" */;
+			buildPhases = (
+				758A81529582E9BE49DD52A9C941478A /* Sources */,
+				72EF3D9BCB11559170E315BFEAAB0B0E /* Frameworks */,
+				0DF239C2E1C8CCD0F47007BB3AEF601B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Berrywood HomesTests";
+			productName = "Pods-Berrywood HomesTests";
+			productReference = 4D05263A53304C17D8EEA337081A558C /* Pods_Berrywood_HomesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80CBCC225074FD190F9BEA2940592423 /* Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F734F76098089EF9030FCCACD5766C7 /* Build configuration list for PBXNativeTarget "Canvas" */;
+			buildPhases = (
+				0A33DC707B44F030F5360D55F0E5C04D /* Sources */,
+				910A477B8028CFF2267C8C9B8791CCB6 /* Frameworks */,
+				1D2DEE5F2ACADAF8DC0B4772E36CC6C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canvas;
+			productName = Canvas;
+			productReference = 6021A215735B49FFE7583D0E90FEB223 /* Canvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B48B085FCD806F8FCB2174222C060DFA /* Pods-Berrywood HomesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5CBD6A97AEC7C8B084D2108A774324 /* Build configuration list for PBXNativeTarget "Pods-Berrywood HomesUITests" */;
+			buildPhases = (
+				46BB9A10D889C5A7436D5DE35A96810C /* Sources */,
+				8F630C9A169625A78DE610D84C15C2F5 /* Frameworks */,
+				90760CE1D7196C680A168A5A633A1D39 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Berrywood HomesUITests";
+			productName = "Pods-Berrywood HomesUITests";
+			productReference = 40EE0BF2769101E7291B8B559782F6CC /* Pods_Berrywood_HomesUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A857E1DD3DEDA4EA6A8F24D251BAA781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CBCC225074FD190F9BEA2940592423 /* Canvas */,
+				045EC3B81885F2879B7D30F4A48BC4D5 /* Pods-Berrywood Homes */,
+				6652C1DF934CCB6AE024F9B81BDACE09 /* Pods-Berrywood HomesTests */,
+				B48B085FCD806F8FCB2174222C060DFA /* Pods-Berrywood HomesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A33DC707B44F030F5360D55F0E5C04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5703AD94DB5E55AF9A2D572CC81A08B /* Canvas-dummy.m in Sources */,
+				CB9EA82F545BB2D13A0B32FF3A9FFF1C /* CSAnimation.m in Sources */,
+				37437BE1DBC4C60EEF23B79D6C994BF8 /* CSAnimationView.m in Sources */,
+				B37A4CE3AE562C1B0715F69687E6644A /* CSBlurView.m in Sources */,
+				51DB856BD58ADC66EAF464260C9BB683 /* CSNavigationController.m in Sources */,
+				E0280B7E837B585206DACE6B58CBA14A /* UIButton+TCCustomFont.m in Sources */,
+				C12996EA896ABDF39A40FC94315EA238 /* UILabel+TCCustomFont.m in Sources */,
+				DAD9483A8C579DE8A0561E2EC91736EB /* UINavigationBar+TCCustomFont.m in Sources */,
+				FF638CC4A9134346D3A7831C880CF8CC /* UITextField+PlaceholderColor.m in Sources */,
+				F36FC5C3F71A1B956F4D4837202295AF /* UITextField+TCCustomFont.m in Sources */,
+				146EA652DBF62F28CFB6A3001693A9D8 /* UITextView+TCCustomFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BB9A10D889C5A7436D5DE35A96810C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BD94D77A0EB3BCFDE2BA74A04AD9FA /* Pods-Berrywood HomesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758A81529582E9BE49DD52A9C941478A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC488F45D3A9C38837FEB1DFD4CB104 /* Pods-Berrywood HomesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DB1E2A4624375C3C9642DC019CBF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E81D6CC01FE0E9B746A8C23B2C54207 /* Pods-Berrywood Homes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13FC44662C3B77E49E46041220CCA0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Canvas;
+			target = 80CBCC225074FD190F9BEA2940592423 /* Canvas */;
+			targetProxy = 807498168AC82C16EA5A268B5B70E2E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		11C0C7140C148658206745E69F1D5D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA8D8722872A992C29C0B1DFDD433F6 /* Canvas.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2339D7471C9040A74FB657907BF0A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7466D61AEB68AD5518435AE8232A74 /* Pods-Berrywood HomesUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Berrywood HomesUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Berrywood HomesUITests/Pods-Berrywood HomesUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Berrywood_HomesUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24990D104FBD20A33D4A987FF81CDAF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F0B4D12FB53F570C6E5277F45CF10B /* Pods-Berrywood HomesTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Berrywood HomesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Berrywood HomesTests/Pods-Berrywood HomesTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Berrywood_HomesTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CE561A7BEED7B5BB5C3C784894F40CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727768B162DD5FE78E4B559E18CDCC8C /* Pods-Berrywood HomesTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Berrywood HomesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Berrywood HomesTests/Pods-Berrywood HomesTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Berrywood_HomesTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8134A67E92AC13D2E7BA424DE2AE2DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB65B685B28776E85AC9796840CF66D /* Pods-Berrywood HomesUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Berrywood HomesUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Berrywood HomesUITests/Pods-Berrywood HomesUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Berrywood_HomesUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		980E91E544E944C8C78EF5305D81B67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B427A9FB9AEC087BBE20CCB1814365F7 /* Pods-Berrywood Homes.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Berrywood Homes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Berrywood Homes/Pods-Berrywood Homes.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Berrywood_Homes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE07B89A511424DDEB980347B099DAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA8D8722872A992C29C0B1DFDD433F6 /* Canvas.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF81F356803C7861268BDFA4C80D1B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E656B01EB75C1B5B270C63DE4F0DFAB1 /* Pods-Berrywood Homes.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Berrywood Homes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Berrywood Homes/Pods-Berrywood Homes.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Berrywood_Homes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5CBD6A97AEC7C8B084D2108A774324 /* Build configuration list for PBXNativeTarget "Pods-Berrywood HomesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2339D7471C9040A74FB657907BF0A820 /* Debug */,
+				8134A67E92AC13D2E7BA424DE2AE2DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E09ECEE89E30BC2CA79580952CE2D69 /* Build configuration list for PBXNativeTarget "Pods-Berrywood HomesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE561A7BEED7B5BB5C3C784894F40CD /* Debug */,
+				24990D104FBD20A33D4A987FF81CDAF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F734F76098089EF9030FCCACD5766C7 /* Build configuration list for PBXNativeTarget "Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE07B89A511424DDEB980347B099DAAD /* Debug */,
+				11C0C7140C148658206745E69F1D5D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1DFA52306F740FC4DECCB6E8994889B /* Build configuration list for PBXNativeTarget "Pods-Berrywood Homes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980E91E544E944C8C78EF5305D81B67C /* Debug */,
+				CF81F356803C7861268BDFA4C80D1B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
