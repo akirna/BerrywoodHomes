@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36EF37F573E325F3CFA5241F /* Pods_Berrywood_HomesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027B6C3B131DB3BDE420F3F0 /* Pods_Berrywood_HomesUITests.framework */; };
+		490686741D42D6AD00672ECA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 490686731D42D6AD00672ECA /* GoogleService-Info.plist */; };
+		490686751D42D6AD00672ECA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 490686731D42D6AD00672ECA /* GoogleService-Info.plist */; };
+		490686761D42D6AD00672ECA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 490686731D42D6AD00672ECA /* GoogleService-Info.plist */; };
 		49BF53341D2B01790066AC08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF53331D2B01790066AC08 /* AppDelegate.swift */; };
-		49BF53361D2B01790066AC08 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF53351D2B01790066AC08 /* MasterViewController.swift */; };
-		49BF53381D2B01790066AC08 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF53371D2B01790066AC08 /* DetailViewController.swift */; };
 		49BF533B1D2B01790066AC08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BF53391D2B01790066AC08 /* Main.storyboard */; };
 		49BF533D1D2B01790066AC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BF533C1D2B01790066AC08 /* Assets.xcassets */; };
 		49BF53401D2B01790066AC08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BF533E1D2B01790066AC08 /* LaunchScreen.storyboard */; };
 		49BF534B1D2B01790066AC08 /* Berrywood_HomesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF534A1D2B01790066AC08 /* Berrywood_HomesTests.swift */; };
 		49BF53561D2B01790066AC08 /* Berrywood_HomesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF53551D2B01790066AC08 /* Berrywood_HomesUITests.swift */; };
+		49D2528B1D48495D00C59F0F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2528A1D48495D00C59F0F /* HomeTableViewController.swift */; };
+		4A4A9D33F08612970BA281D3 /* Pods_Berrywood_Homes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09195D7FBB02C4FF54667828 /* Pods_Berrywood_Homes.framework */; };
+		7D8DF9F52BCB4BBFAC5BC4C7 /* Pods_Berrywood_HomesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D8FE0DE04E2BE9E12BA237 /* Pods_Berrywood_HomesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49BF53301D2B01780066AC08 /* Berrywood Homes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Berrywood Homes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		027B6C3B131DB3BDE420F3F0 /* Pods_Berrywood_HomesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berrywood_HomesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09195D7FBB02C4FF54667828 /* Pods_Berrywood_Homes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berrywood_Homes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3962D811DF1F82698974AEB9 /* Pods-Berrywood HomesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berrywood HomesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Berrywood HomesTests/Pods-Berrywood HomesTests.release.xcconfig"; sourceTree = "<group>"; };
+		421A930E8EA2E77B4144E5EC /* Pods-Berrywood HomesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berrywood HomesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Berrywood HomesUITests/Pods-Berrywood HomesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		490686731D42D6AD00672ECA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49BF53301D2B01780066AC08 /* Berrywood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berrywood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BF53331D2B01790066AC08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49BF53351D2B01790066AC08 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		49BF53371D2B01790066AC08 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		49BF533A1D2B01790066AC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49BF533C1D2B01790066AC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49BF533F1D2B01790066AC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,13 @@
 		49BF53511D2B01790066AC08 /* Berrywood HomesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Berrywood HomesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BF53551D2B01790066AC08 /* Berrywood_HomesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berrywood_HomesUITests.swift; sourceTree = "<group>"; };
 		49BF53571D2B01790066AC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BF53631D2B08060066AC08 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		49D2528A1D48495D00C59F0F /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		59BC562B9B6DCD37D85DBF76 /* Pods-Berrywood HomesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berrywood HomesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Berrywood HomesUITests/Pods-Berrywood HomesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BCAB758570916DC7369FCC1 /* Pods-Berrywood HomesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berrywood HomesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Berrywood HomesTests/Pods-Berrywood HomesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7D8FE0DE04E2BE9E12BA237 /* Pods_Berrywood_HomesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berrywood_HomesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E119B2C84122D04A3AB15001 /* Pods-Berrywood Homes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berrywood Homes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Berrywood Homes/Pods-Berrywood Homes.debug.xcconfig"; sourceTree = "<group>"; };
+		E630E00FB15515BA2007DA73 /* Pods-Berrywood Homes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berrywood Homes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Berrywood Homes/Pods-Berrywood Homes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A4A9D33F08612970BA281D3 /* Pods_Berrywood_Homes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8DF9F52BCB4BBFAC5BC4C7 /* Pods_Berrywood_HomesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EF37F573E325F3CFA5241F /* Pods_Berrywood_HomesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,13 +101,15 @@
 				49BF53491D2B01790066AC08 /* Berrywood HomesTests */,
 				49BF53541D2B01790066AC08 /* Berrywood HomesUITests */,
 				49BF53311D2B01780066AC08 /* Products */,
+				8EAA62DF5F58318DD21614DF /* Pods */,
+				82DCCDA9741CC7C008C66748 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		49BF53311D2B01780066AC08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49BF53301D2B01780066AC08 /* Berrywood Homes.app */,
+				49BF53301D2B01780066AC08 /* Berrywood.app */,
 				49BF53461D2B01790066AC08 /* Berrywood HomesTests.xctest */,
 				49BF53511D2B01790066AC08 /* Berrywood HomesUITests.xctest */,
 			);
@@ -99,13 +119,14 @@
 		49BF53321D2B01790066AC08 /* Berrywood Homes */ = {
 			isa = PBXGroup;
 			children = (
+				49D2528A1D48495D00C59F0F /* HomeTableViewController.swift */,
 				49BF53331D2B01790066AC08 /* AppDelegate.swift */,
-				49BF53351D2B01790066AC08 /* MasterViewController.swift */,
-				49BF53371D2B01790066AC08 /* DetailViewController.swift */,
 				49BF53391D2B01790066AC08 /* Main.storyboard */,
 				49BF533C1D2B01790066AC08 /* Assets.xcassets */,
 				49BF533E1D2B01790066AC08 /* LaunchScreen.storyboard */,
 				49BF53411D2B01790066AC08 /* Info.plist */,
+				490686731D42D6AD00672ECA /* GoogleService-Info.plist */,
+				49BF53631D2B08060066AC08 /* README.md */,
 			);
 			path = "Berrywood Homes";
 			sourceTree = "<group>";
@@ -128,6 +149,29 @@
 			path = "Berrywood HomesUITests";
 			sourceTree = "<group>";
 		};
+		82DCCDA9741CC7C008C66748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09195D7FBB02C4FF54667828 /* Pods_Berrywood_Homes.framework */,
+				A7D8FE0DE04E2BE9E12BA237 /* Pods_Berrywood_HomesTests.framework */,
+				027B6C3B131DB3BDE420F3F0 /* Pods_Berrywood_HomesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EAA62DF5F58318DD21614DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E119B2C84122D04A3AB15001 /* Pods-Berrywood Homes.debug.xcconfig */,
+				E630E00FB15515BA2007DA73 /* Pods-Berrywood Homes.release.xcconfig */,
+				6BCAB758570916DC7369FCC1 /* Pods-Berrywood HomesTests.debug.xcconfig */,
+				3962D811DF1F82698974AEB9 /* Pods-Berrywood HomesTests.release.xcconfig */,
+				59BC562B9B6DCD37D85DBF76 /* Pods-Berrywood HomesUITests.debug.xcconfig */,
+				421A930E8EA2E77B4144E5EC /* Pods-Berrywood HomesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49BF535A1D2B01790066AC08 /* Build configuration list for PBXNativeTarget "Berrywood Homes" */;
 			buildPhases = (
+				87226CABAC162EB734C62BDF /* [CP] Check Pods Manifest.lock */,
 				49BF532C1D2B01780066AC08 /* Sources */,
 				49BF532D1D2B01780066AC08 /* Frameworks */,
 				49BF532E1D2B01780066AC08 /* Resources */,
+				D23242F537A378CB3F050167 /* [CP] Embed Pods Frameworks */,
+				065284F26C2AA965E8444E21 /* [CP] Copy Pods Resources */,
+				49D2528C1D4A615700C59F0F /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -145,16 +193,19 @@
 			);
 			name = "Berrywood Homes";
 			productName = "Berrywood Homes";
-			productReference = 49BF53301D2B01780066AC08 /* Berrywood Homes.app */;
+			productReference = 49BF53301D2B01780066AC08 /* Berrywood.app */;
 			productType = "com.apple.product-type.application";
 		};
 		49BF53451D2B01790066AC08 /* Berrywood HomesTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49BF535D1D2B01790066AC08 /* Build configuration list for PBXNativeTarget "Berrywood HomesTests" */;
 			buildPhases = (
+				6116A15F81B7278A4AE2B557 /* [CP] Check Pods Manifest.lock */,
 				49BF53421D2B01790066AC08 /* Sources */,
 				49BF53431D2B01790066AC08 /* Frameworks */,
 				49BF53441D2B01790066AC08 /* Resources */,
+				6A9CD73C06FB4DA4C45CE86C /* [CP] Embed Pods Frameworks */,
+				9B4CDF2DFC0E2607306400C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49BF53601D2B01790066AC08 /* Build configuration list for PBXNativeTarget "Berrywood HomesUITests" */;
 			buildPhases = (
+				AC6B7EACE99B3E4CA692E192 /* [CP] Check Pods Manifest.lock */,
 				49BF534D1D2B01790066AC08 /* Sources */,
 				49BF534E1D2B01790066AC08 /* Frameworks */,
 				49BF534F1D2B01790066AC08 /* Resources */,
+				88F3B21FD0E01306869139F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +250,11 @@
 					49BF532F1D2B01780066AC08 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = MQ7D974U5V;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					49BF53451D2B01790066AC08 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -236,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49BF53401D2B01790066AC08 /* LaunchScreen.storyboard in Resources */,
+				490686741D42D6AD00672ECA /* GoogleService-Info.plist in Resources */,
 				49BF533D1D2B01790066AC08 /* Assets.xcassets in Resources */,
 				49BF533B1D2B01790066AC08 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490686751D42D6AD00672ECA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,18 +312,155 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490686761D42D6AD00672ECA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		065284F26C2AA965E8444E21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Berrywood Homes/Pods-Berrywood Homes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49D2528C1D4A615700C59F0F /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" a7419edc710b3b4007ddbbddee51f1598e2e2b61 35d7641fa0ca67350905d80194f08786ef1d0b621a12c8d2f6ce840fe6a2ae72";
+		};
+		6116A15F81B7278A4AE2B557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9CD73C06FB4DA4C45CE86C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Berrywood HomesTests/Pods-Berrywood HomesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87226CABAC162EB734C62BDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88F3B21FD0E01306869139F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Berrywood HomesUITests/Pods-Berrywood HomesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B4CDF2DFC0E2607306400C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Berrywood HomesTests/Pods-Berrywood HomesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6B7EACE99B3E4CA692E192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D23242F537A378CB3F050167 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Berrywood Homes/Pods-Berrywood Homes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49BF532C1D2B01780066AC08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49BF53381D2B01790066AC08 /* DetailViewController.swift in Sources */,
-				49BF53361D2B01790066AC08 /* MasterViewController.swift in Sources */,
+				49D2528B1D48495D00C59F0F /* HomeTableViewController.swift in Sources */,
 				49BF53341D2B01790066AC08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,28 +603,34 @@
 		};
 		49BF535B1D2B01790066AC08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E119B2C84122D04A3AB15001 /* Pods-Berrywood Homes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
 				INFOPLIST_FILE = "Berrywood Homes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kirna.Berrywood-Homes";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Berrywood;
 			};
 			name = Debug;
 		};
 		49BF535C1D2B01790066AC08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E630E00FB15515BA2007DA73 /* Pods-Berrywood Homes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
 				INFOPLIST_FILE = "Berrywood Homes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kirna.Berrywood-Homes";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Berrywood;
 			};
 			name = Release;
 		};
 		49BF535E1D2B01790066AC08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BCAB758570916DC7369FCC1 /* Pods-Berrywood HomesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Berrywood HomesTests/Info.plist";
@@ -440,6 +643,7 @@
 		};
 		49BF535F1D2B01790066AC08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3962D811DF1F82698974AEB9 /* Pods-Berrywood HomesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Berrywood HomesTests/Info.plist";
@@ -452,6 +656,7 @@
 		};
 		49BF53611D2B01790066AC08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59BC562B9B6DCD37D85DBF76 /* Pods-Berrywood HomesUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Berrywood HomesUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -463,6 +668,7 @@
 		};
 		49BF53621D2B01790066AC08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421A930E8EA2E77B4144E5EC /* Pods-Berrywood HomesUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Berrywood HomesUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -491,6 +697,7 @@
 				49BF535C1D2B01790066AC08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49BF535D1D2B01790066AC08 /* Build configuration list for PBXNativeTarget "Berrywood HomesTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +706,7 @@
 				49BF535F1D2B01790066AC08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49BF53601D2B01790066AC08 /* Build configuration list for PBXNativeTarget "Berrywood HomesUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +715,7 @@
 				49BF53621D2B01790066AC08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
