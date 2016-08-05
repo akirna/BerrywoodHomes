@@ -11,13 +11,21 @@
 		490686741D42D6AD00672ECA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 490686731D42D6AD00672ECA /* GoogleService-Info.plist */; };
 		490686751D42D6AD00672ECA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 490686731D42D6AD00672ECA /* GoogleService-Info.plist */; };
 		490686761D42D6AD00672ECA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 490686731D42D6AD00672ECA /* GoogleService-Info.plist */; };
+		49667C451D4E9B5D005093BF /* ShowcaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49667C441D4E9B5D005093BF /* ShowcaseViewController.swift */; };
+		49667C471D4E9B7B005093BF /* ListingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49667C461D4E9B7B005093BF /* ListingsViewController.swift */; };
+		49667C491D4E9B99005093BF /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49667C481D4E9B99005093BF /* MoreTableViewController.swift */; };
 		49BF53341D2B01790066AC08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF53331D2B01790066AC08 /* AppDelegate.swift */; };
 		49BF533B1D2B01790066AC08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BF53391D2B01790066AC08 /* Main.storyboard */; };
 		49BF533D1D2B01790066AC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BF533C1D2B01790066AC08 /* Assets.xcassets */; };
 		49BF53401D2B01790066AC08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BF533E1D2B01790066AC08 /* LaunchScreen.storyboard */; };
 		49BF534B1D2B01790066AC08 /* Berrywood_HomesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF534A1D2B01790066AC08 /* Berrywood_HomesTests.swift */; };
 		49BF53561D2B01790066AC08 /* Berrywood_HomesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF53551D2B01790066AC08 /* Berrywood_HomesUITests.swift */; };
+		49C744851D5424920090DA1F /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C744841D5424920090DA1F /* Section.swift */; };
+		49C744871D54270D0090DA1F /* SectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C744861D54270D0090DA1F /* SectionData.swift */; };
+		49C744891D54ECF80090DA1F /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C744881D54ECF80090DA1F /* WebsiteViewController.swift */; };
+		49C7448B1D55429A0090DA1F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C7448A1D55429A0090DA1F /* SettingsTableViewController.swift */; };
 		49D2528B1D48495D00C59F0F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2528A1D48495D00C59F0F /* HomeTableViewController.swift */; };
+		49EE7BBD1D50463200AEA981 /* MortgageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE7BBC1D50463200AEA981 /* MortgageViewController.swift */; };
 		4A4A9D33F08612970BA281D3 /* Pods_Berrywood_Homes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09195D7FBB02C4FF54667828 /* Pods_Berrywood_Homes.framework */; };
 		7D8DF9F52BCB4BBFAC5BC4C7 /* Pods_Berrywood_HomesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D8FE0DE04E2BE9E12BA237 /* Pods_Berrywood_HomesTests.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +53,9 @@
 		3962D811DF1F82698974AEB9 /* Pods-Berrywood HomesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berrywood HomesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Berrywood HomesTests/Pods-Berrywood HomesTests.release.xcconfig"; sourceTree = "<group>"; };
 		421A930E8EA2E77B4144E5EC /* Pods-Berrywood HomesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berrywood HomesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Berrywood HomesUITests/Pods-Berrywood HomesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		490686731D42D6AD00672ECA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49667C441D4E9B5D005093BF /* ShowcaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowcaseViewController.swift; sourceTree = "<group>"; };
+		49667C461D4E9B7B005093BF /* ListingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingsViewController.swift; sourceTree = "<group>"; };
+		49667C481D4E9B99005093BF /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
 		49BF53301D2B01780066AC08 /* Berrywood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berrywood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BF53331D2B01790066AC08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49BF533A1D2B01790066AC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,7 +69,12 @@
 		49BF53551D2B01790066AC08 /* Berrywood_HomesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berrywood_HomesUITests.swift; sourceTree = "<group>"; };
 		49BF53571D2B01790066AC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49BF53631D2B08060066AC08 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		49C744841D5424920090DA1F /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		49C744861D54270D0090DA1F /* SectionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionData.swift; sourceTree = "<group>"; };
+		49C744881D54ECF80090DA1F /* WebsiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		49C7448A1D55429A0090DA1F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		49D2528A1D48495D00C59F0F /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		49EE7BBC1D50463200AEA981 /* MortgageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MortgageViewController.swift; sourceTree = "<group>"; };
 		59BC562B9B6DCD37D85DBF76 /* Pods-Berrywood HomesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berrywood HomesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Berrywood HomesUITests/Pods-Berrywood HomesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BCAB758570916DC7369FCC1 /* Pods-Berrywood HomesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berrywood HomesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Berrywood HomesTests/Pods-Berrywood HomesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7D8FE0DE04E2BE9E12BA237 /* Pods_Berrywood_HomesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berrywood_HomesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,8 +135,16 @@
 		49BF53321D2B01790066AC08 /* Berrywood Homes */ = {
 			isa = PBXGroup;
 			children = (
-				49D2528A1D48495D00C59F0F /* HomeTableViewController.swift */,
 				49BF53331D2B01790066AC08 /* AppDelegate.swift */,
+				49D2528A1D48495D00C59F0F /* HomeTableViewController.swift */,
+				49667C441D4E9B5D005093BF /* ShowcaseViewController.swift */,
+				49667C461D4E9B7B005093BF /* ListingsViewController.swift */,
+				49667C481D4E9B99005093BF /* MoreTableViewController.swift */,
+				49EE7BBC1D50463200AEA981 /* MortgageViewController.swift */,
+				49C744881D54ECF80090DA1F /* WebsiteViewController.swift */,
+				49C7448A1D55429A0090DA1F /* SettingsTableViewController.swift */,
+				49C744841D5424920090DA1F /* Section.swift */,
+				49C744861D54270D0090DA1F /* SectionData.swift */,
 				49BF53391D2B01790066AC08 /* Main.storyboard */,
 				49BF533C1D2B01790066AC08 /* Assets.xcassets */,
 				49BF533E1D2B01790066AC08 /* LaunchScreen.storyboard */,
@@ -461,7 +485,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D2528B1D48495D00C59F0F /* HomeTableViewController.swift in Sources */,
+				49667C451D4E9B5D005093BF /* ShowcaseViewController.swift in Sources */,
+				49EE7BBD1D50463200AEA981 /* MortgageViewController.swift in Sources */,
+				49C744871D54270D0090DA1F /* SectionData.swift in Sources */,
+				49C744891D54ECF80090DA1F /* WebsiteViewController.swift in Sources */,
+				49C744851D5424920090DA1F /* Section.swift in Sources */,
+				49C7448B1D55429A0090DA1F /* SettingsTableViewController.swift in Sources */,
 				49BF53341D2B01790066AC08 /* AppDelegate.swift in Sources */,
+				49667C471D4E9B7B005093BF /* ListingsViewController.swift in Sources */,
+				49667C491D4E9B99005093BF /* MoreTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

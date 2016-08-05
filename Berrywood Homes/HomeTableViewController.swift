@@ -11,6 +11,9 @@ import TwitterKit
 
 class HomeTableViewController: TWTRTimelineViewController {
     
+    let custom: Bool = true
+    let berrywoodColor = UIColor(red: 246/255, green: 40/255, blue: 23/255, alpha: 1.0)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
@@ -20,12 +23,15 @@ class HomeTableViewController: TWTRTimelineViewController {
     /// Set up Twitter timeline and view colors.
     ///
     func configureView() {
-        let berrywoodColor = UIColor(red: 246/255, green: 40/255, blue: 23/255, alpha: 1.0)
         let client = TWTRAPIClient()
         self.dataSource = TWTRUserTimelineDataSource(screenName: "archdigest", APIClient: client)
-        TWTRTweetView.appearance().backgroundColor = UIColor.lightGrayColor()
+        if custom {
+            TWTRTweetView.appearance().backgroundColor = UIColor.lightGrayColor()
+            TWTRTweetView.appearance().primaryTextColor = UIColor.whiteColor()
+        } else {
+            TWTRTweetView.appearance().theme = TWTRTweetViewTheme.Light
+        }
         TWTRTweetView.appearance().linkTextColor = berrywoodColor
-        TWTRTweetView.appearance().primaryTextColor = UIColor.whiteColor()
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "berrywoodhomesbanner"), forBarMetrics: .Default)
     }
     
