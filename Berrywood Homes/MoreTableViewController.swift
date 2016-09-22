@@ -10,7 +10,7 @@ import UIKit
 
 class MoreTableViewController: UITableViewController {
 
-    let moreOptions = SectionData().getMoreSectionsFromData()
+    let moreItems = SectionData().getMoreSectionsFromData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,49 +18,49 @@ class MoreTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return moreOptions.count
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return moreItems.count
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {        return moreOptions[section].items.count
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {        return moreItems[section].items.count
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("More Cell", forIndexPath: indexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "More Cell", for: indexPath)
 
         // Configure the cell...
-        let option = moreOptions[indexPath.section].items[indexPath.row]
-        cell.textLabel?.text = option
-        cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
+        let item = moreItems[(indexPath as NSIndexPath).section].items[(indexPath as NSIndexPath).row]
+        cell.textLabel?.text = item
+        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
 
         return cell
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return moreOptions[section].heading
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return moreItems[section].heading
     }
     
     // MARK: - Navigation
 
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let selection = moreOptions[indexPath.section].items[indexPath.row]
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selection = moreItems[(indexPath as NSIndexPath).section].items[(indexPath as NSIndexPath).row]
         switch selection {
         case "Mortgage Calculator":
-            let mortgageView = storyboard?.instantiateViewControllerWithIdentifier("mortgageViewController")
-            showViewController(mortgageView!, sender: self)
+            let mortgageView = storyboard?.instantiateViewController(withIdentifier: "mortgageViewController")
+            show(mortgageView!, sender: self)
         case "Website":
-            let websiteView = storyboard?.instantiateViewControllerWithIdentifier("websiteViewController")
-            showViewController(websiteView!, sender: self)
+            let websiteView = storyboard?.instantiateViewController(withIdentifier: "websiteViewController")
+            show(websiteView!, sender: self)
         case "Settings":
-            let settingsView = storyboard?.instantiateViewControllerWithIdentifier("settingsViewController")
-            showViewController(settingsView!, sender: self)
+            let settingsView = storyboard?.instantiateViewController(withIdentifier: "settingsViewController")
+            show(settingsView!, sender: self)
         default:
             break
         }
     }
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }

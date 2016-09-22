@@ -17,6 +17,7 @@ class SettingsTableViewController: UITableViewController {
 
     }
 
+    /*
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -26,15 +27,19 @@ class SettingsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return settingsItems[section].items.count
     }
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return settingsItems[section].heading
+    }
 
-    /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("Settings Cell", forIndexPath: indexPath)
 
         // Configure the cell...
-
+        let item = settingsItems[indexPath.section].items[indexPath.row]
+        cell.textLabel?.text = item
+        
         return cell
     }
-    */
-
+     */
 }

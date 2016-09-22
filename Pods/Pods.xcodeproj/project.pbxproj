@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0035E280E2227924AC4E2F8B3D44EF6B /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D9D90B01CC0335992694EFF5759728 /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		050D31F1ACF003324524127CC92E1C6F /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D1718047F17BE7C1519F2B61B7A24392 /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		146EA652DBF62F28CFB6A3001693A9D8 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF3DB488C894C9555A17046E175CBA /* UITextView+TCCustomFont.m */; };
+		0035E280E2227924AC4E2F8B3D44EF6B /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D3D1B4378502F1E0BA0EDF55B697A2 /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		050D31F1ACF003324524127CC92E1C6F /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D20FC13BB8D48A9CB5E18AC9F235E12B /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146EA652DBF62F28CFB6A3001693A9D8 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 520CFD4CC9A0A17FB75075B00305456E /* UITextView+TCCustomFont.m */; };
 		27353A00D5ACFE9ADDDC725CABB69879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		2B3C98BF6B534DD54B2918F45B66A324 /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7936E53764390FF76D7B1E08770448 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37437BE1DBC4C60EEF23B79D6C994BF8 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51129BC25AB3116AE14D04B3A08D4B02 /* CSAnimationView.m */; };
+		2B3C98BF6B534DD54B2918F45B66A324 /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = C44EEC5C3F7492209F1E894AF90C5CFF /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37437BE1DBC4C60EEF23B79D6C994BF8 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21852C96518CA538579FB57FF351950C /* CSAnimationView.m */; };
 		38BD94D77A0EB3BCFDE2BA74A04AD9FA /* Pods-Berrywood HomesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 737F3CC21C6762D26D8EE8A669AAB56A /* Pods-Berrywood HomesUITests-dummy.m */; };
 		4DF74E493574798D40330DF60339EB3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		4F3DF3C44C278FE44AD44BA7C7FFE416 /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3254A92CDACE593531C8E5D79E6908EF /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51DB856BD58ADC66EAF464260C9BB683 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E996C1AFD5AD95029814E9519D1CF790 /* CSNavigationController.m */; };
+		4F3DF3C44C278FE44AD44BA7C7FFE416 /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1A3DAB30B1D086E2D0ACC2BFAFEDB /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51DB856BD58ADC66EAF464260C9BB683 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A932E03B9AC1AD2A028BA77CABC0BD87 /* CSNavigationController.m */; };
 		5414F00C4C79BA786A9AA266BF693234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		662C71BB07B541650F00C223691E8902 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 82274346622B42FF3ECB7C391AFF1F7B /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		662C71BB07B541650F00C223691E8902 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = EE757DF72669802FF081EC6221911ACB /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E81D6CC01FE0E9B746A8C23B2C54207 /* Pods-Berrywood Homes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB726A53135F29F092B12375E1C8050F /* Pods-Berrywood Homes-dummy.m */; };
-		A2EAB23D235F8B41E28A14ADD16542A9 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D29915A81C281EE94431DDD3E164E6 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2EAB23D235F8B41E28A14ADD16542A9 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 090B95C0F471DE3C2B4F066E3F9D8569 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAC586CED2EEF5EE8E7DF3ADB00A25A7 /* Pods-Berrywood HomesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8AACDE337A7B1EF790DC4481B7836F7 /* Pods-Berrywood HomesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACC69A322D25E4C061D7B00E62DFE6A4 /* Pods-Berrywood Homes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CFE9F2FACE2EA272B9D265484C2E1B5 /* Pods-Berrywood Homes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADC488F45D3A9C38837FEB1DFD4CB104 /* Pods-Berrywood HomesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE495D2CCC1338198295B0FCEB2532 /* Pods-Berrywood HomesTests-dummy.m */; };
-		AE024FC0C6A794A8BC3B113BF63E836A /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6365A9DD7344563D0F8D9AB4064FAF /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B37A4CE3AE562C1B0715F69687E6644A /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 219368DDA30C5AAD859559F8ADF131EF /* CSBlurView.m */; };
-		C12996EA896ABDF39A40FC94315EA238 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D0701EDD7C5E068E3729369F4177677B /* UILabel+TCCustomFont.m */; };
-		C5703AD94DB5E55AF9A2D572CC81A08B /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A79D219B6717F261F1B7A8D725DB1 /* Canvas-dummy.m */; };
-		C9EA18F788CF76E49B34C3B12A42200D /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA0EE6C2978470D6330641CEBFA0804 /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB9EA82F545BB2D13A0B32FF3A9FFF1C /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B712BE6EBF185A616C55717DD6AD1 /* CSAnimation.m */; };
+		AE024FC0C6A794A8BC3B113BF63E836A /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE42963072A0ACB652F1DD7A1D7FE81 /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B37A4CE3AE562C1B0715F69687E6644A /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEC439688977A1D7A418A7748E901C /* CSBlurView.m */; };
+		C12996EA896ABDF39A40FC94315EA238 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C179F7C096C47099E7FD904AA51EF213 /* UILabel+TCCustomFont.m */; };
+		C5703AD94DB5E55AF9A2D572CC81A08B /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431769E7DF7C0698A6E244DA8BBEA91 /* Canvas-dummy.m */; };
+		C9EA18F788CF76E49B34C3B12A42200D /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B63067BB9CB1A06AEF08A94EAC2C357 /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9EA82F545BB2D13A0B32FF3A9FFF1C /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5D51F2895BCC15EB342C81B760174 /* CSAnimation.m */; };
 		D48B2522EF3D35210840DFF235E29288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		DAD9483A8C579DE8A0561E2EC91736EB /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E15BA9420E6E94464E0BA274A911FB93 /* UINavigationBar+TCCustomFont.m */; };
-		DB678D6A80AE82C0E08F121230FADB12 /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = A93733BF22C96535C7A9FC105D526269 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD0DB59C5A2FC7EF534D4BFE1F45BFDC /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEDD158B5FB68DF2FDFC652B0FC7436 /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF9556B6C0FBC1894056CA9E9DFFC0E5 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBA9DE2B3645625032E6AB9FED9F02E /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0280B7E837B585206DACE6B58CBA14A /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F7B0C64094CB24F02C1A1FA1162B1A /* UIButton+TCCustomFont.m */; };
-		E064A372B02C1DB0F4DD763CAD500BA1 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 6559DA8F89C282C52D9F39B99F0D1F85 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAD9483A8C579DE8A0561E2EC91736EB /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F0182DEC9CFAC7FB328F525897B45 /* UINavigationBar+TCCustomFont.m */; };
+		DB678D6A80AE82C0E08F121230FADB12 /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCA03E8D73359EBD8B20CFE878C9865 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0DB59C5A2FC7EF534D4BFE1F45BFDC /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E6284AA6B260F004FC09B6C120106D /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF9556B6C0FBC1894056CA9E9DFFC0E5 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B33E0F2859F480BFCFA1B74F5A26B462 /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0280B7E837B585206DACE6B58CBA14A /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1324ED6F0BCD861C91531559A93A73 /* UIButton+TCCustomFont.m */; };
+		E064A372B02C1DB0F4DD763CAD500BA1 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = A985F02B4472ECA3F6BCD53D9063EF69 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5B971D15FBDC0083D0515E9CA736EAD /* Pods-Berrywood HomesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF2EBD46AA302572EE25BFC299539F4 /* Pods-Berrywood HomesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F36FC5C3F71A1B956F4D4837202295AF /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E5DD0269BAC7E23F5EA6476757637 /* UITextField+TCCustomFont.m */; };
-		FF638CC4A9134346D3A7831C880CF8CC /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2B89BBDD227DD32031CE46ED8F2E9 /* UITextField+PlaceholderColor.m */; };
+		F36FC5C3F71A1B956F4D4837202295AF /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0C17EF2D0B9426ABEF87126B0EB8D /* UITextField+TCCustomFont.m */; };
+		FF638CC4A9134346D3A7831C880CF8CC /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC9A8AC0ADC41DF412C8C801B4A9B5 /* UITextField+PlaceholderColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,80 +53,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0431769E7DF7C0698A6E244DA8BBEA91 /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
+		090B95C0F471DE3C2B4F066E3F9D8569 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
 		0C7466D61AEB68AD5518435AE8232A74 /* Pods-Berrywood HomesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood HomesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		0D0A79D219B6717F261F1B7A8D725DB1 /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
 		0E55015514DACBACE47DCCEFDE8C7878 /* Pods-Berrywood Homes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Berrywood Homes-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FEEC31834AA3B3F769B8E86A20AE0F9 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
 		10DE495D2CCC1338198295B0FCEB2532 /* Pods-Berrywood HomesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Berrywood HomesTests-dummy.m"; sourceTree = "<group>"; };
-		12C7F484AD275AFBBC393EFE39FC9D26 /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		14E6AD4A6105941F0F4073B221B5347D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		167D095F2056A3ED468CA600FD825497 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A5E67A44925809178C8E4BCC235F106 /* Pods-Berrywood HomesUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood HomesUITests-resources.sh"; sourceTree = "<group>"; };
-		219368DDA30C5AAD859559F8ADF131EF /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
-		21D9D90B01CC0335992694EFF5759728 /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
-		2D35940E8F004FA67B8D9115C75F4D61 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
-		3254A92CDACE593531C8E5D79E6908EF /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		1B63067BB9CB1A06AEF08A94EAC2C357 /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		1CCA03E8D73359EBD8B20CFE878C9865 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		20E6284AA6B260F004FC09B6C120106D /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
+		21852C96518CA538579FB57FF351950C /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		25AD1D225B42B6BF1674542F3944971F /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		2ACEC439688977A1D7A418A7748E901C /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		2FE1A3DAB30B1D086E2D0ACC2BFAFEDB /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
 		33F0B4D12FB53F570C6E5277F45CF10B /* Pods-Berrywood HomesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood HomesTests.release.xcconfig"; sourceTree = "<group>"; };
-		34FF3DB488C894C9555A17046E175CBA /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
-		367D873F253F5E3DDD53668EB9CBA402 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		350269DC72C37599CFF4E639082396D0 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 		3CFE9F2FACE2EA272B9D265484C2E1B5 /* Pods-Berrywood Homes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Berrywood Homes-umbrella.h"; sourceTree = "<group>"; };
+		3E1324ED6F0BCD861C91531559A93A73 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
 		3FF2EBD46AA302572EE25BFC299539F4 /* Pods-Berrywood HomesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Berrywood HomesUITests-umbrella.h"; sourceTree = "<group>"; };
 		40EE0BF2769101E7291B8B559782F6CC /* Pods_Berrywood_HomesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berrywood_HomesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		439FE408924FC452BBCEC6CA61DA47E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47111ADF052FE6024C2CD58DDC497E22 /* Pods-Berrywood HomesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Berrywood HomesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4C0356AC80D7DE6B7CCAE3F4614E868C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D05263A53304C17D8EEA337081A558C /* Pods_Berrywood_HomesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berrywood_HomesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F9E5DD0269BAC7E23F5EA6476757637 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
-		51129BC25AB3116AE14D04B3A08D4B02 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		520CFD4CC9A0A17FB75075B00305456E /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		58A0C17EF2D0B9426ABEF87126B0EB8D /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
 		58B71AF86A51049173E346E81235793D /* Pods-Berrywood HomesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Berrywood HomesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58F6F6B323D707AE3A92FFA065013F0E /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Canvas.modulemap; sourceTree = "<group>"; };
+		59B77A94A03A63DAD96537A5C9355691 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		59D3D1B4378502F1E0BA0EDF55B697A2 /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		5B5F0182DEC9CFAC7FB328F525897B45 /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
 		6021A215735B49FFE7583D0E90FEB223 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607D6DA239F906D2B08DABACA56F2F85 /* Pods-Berrywood HomesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Berrywood HomesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		60C2B89BBDD227DD32031CE46ED8F2E9 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
-		6559DA8F89C282C52D9F39B99F0D1F85 /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
-		6B16B13146F6CC73DFCBFA454EA28E4D /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
-		6DD6B15188A58D3205B431969807E7ED /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		6893E5E2F4F7E3B67D0824C3E9B0EECC /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		6DB565BE82B8207BD057A7E700E89187 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
 		727768B162DD5FE78E4B559E18CDCC8C /* Pods-Berrywood HomesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood HomesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		737F3CC21C6762D26D8EE8A669AAB56A /* Pods-Berrywood HomesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Berrywood HomesUITests-dummy.m"; sourceTree = "<group>"; };
-		78749234572EBEACE576D044E4DB7DD7 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		76E57DFF16D1B86F2D1542AC2394596C /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
 		7A054C9F958BDCA141DA8CCD1A4DB2C6 /* Pods-Berrywood HomesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Berrywood HomesTests.modulemap"; sourceTree = "<group>"; };
-		7C46BB9213BB61969B5D35455491DDD9 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
-		7C91CA849BE631EBE6079A095011FE1B /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Canvas.modulemap; sourceTree = "<group>"; };
 		7D25401D70B1D65857604E3B51695E70 /* Pods-Berrywood HomesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Berrywood HomesTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		82274346622B42FF3ECB7C391AFF1F7B /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
-		83C3ABDB5DCAE634919182D33BFC1E9D /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		8BEFA6D5A20A1693278A8F4DC8F3BB97 /* Pods-Berrywood HomesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood HomesUITests-frameworks.sh"; sourceTree = "<group>"; };
-		8EA8D8722872A992C29C0B1DFDD433F6 /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
+		8DE42963072A0ACB652F1DD7A1D7FE81 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		988267D212693A1B382F1287DC506F06 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		962D54F93FD423A1C1F95DCB6F6814E4 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		A3EFEAC09B93328A77B0169530D2AC02 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		A6FC9A8AC0ADC41DF412C8C801B4A9B5 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		A83C018251B582F0B91DE394988D0022 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		A8AACDE337A7B1EF790DC4481B7836F7 /* Pods-Berrywood HomesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Berrywood HomesTests-umbrella.h"; sourceTree = "<group>"; };
-		A9074E8CF5A536DE596270C10FF86C8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A93733BF22C96535C7A9FC105D526269 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
-		A993FC6BE9E6642F74BCFAE0B6526C34 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
-		A9F7B0C64094CB24F02C1A1FA1162B1A /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
-		AA177A3A8E4E2D6243AABCA6A1688E6B /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		A932E03B9AC1AD2A028BA77CABC0BD87 /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		A985F02B4472ECA3F6BCD53D9063EF69 /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
 		AE7C3CCEEF579A5FD57D7E2CB15D895D /* Pods_Berrywood_Homes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berrywood_Homes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33E0F2859F480BFCFA1B74F5A26B462 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		B3B5F30254AE14F56DE9BDF92CEC8890 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
 		B427A9FB9AEC087BBE20CCB1814365F7 /* Pods-Berrywood Homes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood Homes.debug.xcconfig"; sourceTree = "<group>"; };
 		B42F40E2D3E51E7C4BC79BB8154CEB1F /* Pods-Berrywood Homes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Berrywood Homes-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B93250AEBEA4B15CFB118296137DEAB2 /* Pods-Berrywood Homes-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood Homes-resources.sh"; sourceTree = "<group>"; };
 		B93F6EFCF0D631E21C8E4BD9EE69A8F3 /* Pods-Berrywood HomesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Berrywood HomesUITests.modulemap"; sourceTree = "<group>"; };
-		BB2B712BE6EBF185A616C55717DD6AD1 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
-		C3D29915A81C281EE94431DDD3E164E6 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		BEA5D51F2895BCC15EB342C81B760174 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		C179F7C096C47099E7FD904AA51EF213 /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		C44EEC5C3F7492209F1E894AF90C5CFF /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
 		CB743ABC7D1C8B10F6FA01C9BF7D4432 /* Pods-Berrywood Homes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Berrywood Homes.modulemap"; sourceTree = "<group>"; };
 		CBB65B685B28776E85AC9796840CF66D /* Pods-Berrywood HomesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood HomesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CD1699D3C92C48D69AA8239DBE5C7A14 /* Pods-Berrywood HomesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood HomesTests-resources.sh"; sourceTree = "<group>"; };
-		CE7936E53764390FF76D7B1E08770448 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0701EDD7C5E068E3729369F4177677B /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
-		D1718047F17BE7C1519F2B61B7A24392 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		D20FC13BB8D48A9CB5E18AC9F235E12B /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		D250302F532B4062298F2BCCCDC3C21C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		DA1C4AEB3641504F0A07B37286C75614 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
 		DB726A53135F29F092B12375E1C8050F /* Pods-Berrywood Homes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Berrywood Homes-dummy.m"; sourceTree = "<group>"; };
-		DCBA9DE2B3645625032E6AB9FED9F02E /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
 		E04E8BD7D259846DEC6CEAD7E355A2A9 /* Pods-Berrywood HomesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood HomesTests-frameworks.sh"; sourceTree = "<group>"; };
-		E15BA9420E6E94464E0BA274A911FB93 /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
 		E656B01EB75C1B5B270C63DE4F0DFAB1 /* Pods-Berrywood Homes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Berrywood Homes.release.xcconfig"; sourceTree = "<group>"; };
-		E996C1AFD5AD95029814E9519D1CF790 /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
-		EAA0EE6C2978470D6330641CEBFA0804 /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
-		ECEDD158B5FB68DF2FDFC652B0FC7436 /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
+		EB6D4F957E884F0339C0AB2656368EEE /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		EE757DF72669802FF081EC6221911ACB /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
 		F17C7CFFB6D2CD740DE78C67E15A2D0D /* Pods-Berrywood Homes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Berrywood Homes-frameworks.sh"; sourceTree = "<group>"; };
-		FA6365A9DD7344563D0F8D9AB4064FAF /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
-		FCBB51AEBE98881F5343C94A59414C55 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		F474702D87EFC9A8F1B3A40E66E07F1C /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,58 +167,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E117808C05764445020B333728C89C /* Support Files */ = {
+		09BC3A7B17A29A9C8F808AD11EBD4C07 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				7C91CA849BE631EBE6079A095011FE1B /* Canvas.modulemap */,
-				8EA8D8722872A992C29C0B1DFDD433F6 /* Canvas.xcconfig */,
-				0D0A79D219B6717F261F1B7A8D725DB1 /* Canvas-dummy.m */,
-				12C7F484AD275AFBBC393EFE39FC9D26 /* Canvas-prefix.pch */,
-				ECEDD158B5FB68DF2FDFC652B0FC7436 /* Canvas-umbrella.h */,
-				A9074E8CF5A536DE596270C10FF86C8D /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Canvas";
-			sourceTree = "<group>";
-		};
-		023D1B5098985E588B8641CE59722689 /* TwitterCore */ = {
-			isa = PBXGroup;
-			children = (
-				93CE4B59FD5086600A0EA9A3A0E36147 /* Frameworks */,
-			);
-			path = TwitterCore;
-			sourceTree = "<group>";
-		};
-		044C008260874B68539AB5CE43C4DE24 /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				A993FC6BE9E6642F74BCFAE0B6526C34 /* Firebase.h */,
-			);
-			name = Analytics;
-			sourceTree = "<group>";
-		};
-		0A17E18D4F06AE605DD2C33799EE3945 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FCBB51AEBE98881F5343C94A59414C55 /* GoogleSymbolUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0C440B44CC67E28152791EE8631A794D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				367D873F253F5E3DDD53668EB9CBA402 /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1288F6DE7A52E90531F06CCC2C623323 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				044C008260874B68539AB5CE43C4DE24 /* Analytics */,
+				CBDF1BAF045ADF22B67D2568D221C02D /* Analytics */,
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		0B2EA64E28EA912451472F6746390B85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D250302F532B4062298F2BCCCDC3C21C /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		18F68896E01642F3A2E092507A43DE53 /* Targets Support Files */ = {
@@ -229,10 +193,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3C3E78427222018AD1CC3A936947107F /* Frameworks */ = {
+		2058924BDF809C488943DFED75153551 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2D35940E8F004FA67B8D9115C75F4D61 /* Fabric.framework */,
+				EB6D4F957E884F0339C0AB2656368EEE /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27DACDC3A2794B4C95AC895EAFC370AA /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				B8847084D64012432C0EEA130575D6D4 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		351D6A8F5E449BBCF5731ADE33AACDC7 /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				5DC3AB47689E8E21011546307927BF66 /* Frameworks */,
+			);
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		39876FE8F9C14F50B4B64F54712D6FB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25AD1D225B42B6BF1674542F3944971F /* TwitterKitResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3C73337EF3B5420D8230142FBD5BDB3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3EFEAC09B93328A77B0169530D2AC02 /* Fabric.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,6 +239,40 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		479406B5646E4EB0A5F08CB8508914E4 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EA64E28EA912451472F6746390B85 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		4EBF36027DAA04866D7975CFE952F256 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC7BB74A171DF5E28AA30F7A99ABF7D3 /* Canvas */,
+				A8BF3DF5551E9DF2D3CCB4610EF2F5EB /* Fabric */,
+				09BC3A7B17A29A9C8F808AD11EBD4C07 /* Firebase */,
+				479406B5646E4EB0A5F08CB8508914E4 /* FirebaseAnalytics */,
+				7EAE56B5104229ED939E848828D5FA6D /* FirebaseInstanceID */,
+				C9CF6E62188080E07ED1287EB56A40A6 /* GoogleInterchangeUtilities */,
+				8F72856E9EA70E255FA43CF19FBC5D11 /* GoogleSymbolUtilities */,
+				27DACDC3A2794B4C95AC895EAFC370AA /* GoogleUtilities */,
+				351D6A8F5E449BBCF5731ADE33AACDC7 /* TwitterCore */,
+				570260AFFAF3020DF7E3D47B0B4D5815 /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		570260AFFAF3020DF7E3D47B0B4D5815 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				6B71522C7BC5CAD4604B9E25A6D288B0 /* Frameworks */,
+				39876FE8F9C14F50B4B64F54712D6FB8 /* Resources */,
+			);
+			path = TwitterKit;
 			sourceTree = "<group>";
 		};
 		5A2E57BE12A9451087AEA35630DBCD51 /* Pods-Berrywood HomesUITests */ = {
@@ -263,30 +293,20 @@
 			path = "Target Support Files/Pods-Berrywood HomesUITests";
 			sourceTree = "<group>";
 		};
-		60C6672FAB56688ADEA05DD9619ACAD3 /* TwitterKit */ = {
+		5DC3AB47689E8E21011546307927BF66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D721CE5670DE67641F0321B686D6EE62 /* Frameworks */,
-				E4AF19F6E2C53DDDD4E6A260A0466D15 /* Resources */,
+				B3B5F30254AE14F56DE9BDF92CEC8890 /* TwitterCore.framework */,
 			);
-			path = TwitterKit;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6211D8A87F314F980E0BFB68E56956E4 /* Pods */ = {
+		6B71522C7BC5CAD4604B9E25A6D288B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E142970CEA209450F194F8D6FBEA5662 /* Canvas */,
-				D74E482EB97D41F46283E91BAB0B28AF /* Fabric */,
-				1288F6DE7A52E90531F06CCC2C623323 /* Firebase */,
-				D1D2E2559FD5938AC5152D58CF8E7DD6 /* FirebaseAnalytics */,
-				B86079E33CA3499AC844397493BB89B1 /* FirebaseInstanceID */,
-				B614E23CD97489732C972EB038C1D941 /* GoogleInterchangeUtilities */,
-				98BDB6EF91C2D6CF4645A1FE7E2DD4E5 /* GoogleSymbolUtilities */,
-				F4B510794CD807757960D3E7A4876DCE /* GoogleUtilities */,
-				023D1B5098985E588B8641CE59722689 /* TwitterCore */,
-				60C6672FAB56688ADEA05DD9619ACAD3 /* TwitterKit */,
+				59B77A94A03A63DAD96537A5C9355691 /* TwitterKit.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		701D3EA96B9B5367AB019D4AE670329F /* Pods-Berrywood Homes */ = {
@@ -312,42 +332,27 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				6211D8A87F314F980E0BFB68E56956E4 /* Pods */,
+				4EBF36027DAA04866D7975CFE952F256 /* Pods */,
 				A857E1DD3DEDA4EA6A8F24D251BAA781 /* Products */,
 				18F68896E01642F3A2E092507A43DE53 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		93CE4B59FD5086600A0EA9A3A0E36147 /* Frameworks */ = {
+		7EAE56B5104229ED939E848828D5FA6D /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				6DD6B15188A58D3205B431969807E7ED /* TwitterCore.framework */,
+				6DB565BE82B8207BD057A7E700E89187 /* FIRInstanceID.h */,
+				C3D7447836CFE65D63F4DF05F89DF8CA /* Frameworks */,
 			);
-			name = Frameworks;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		98AD1E3FE9BB5C2143102EA9B46C640F /* Frameworks */ = {
+		8F72856E9EA70E255FA43CF19FBC5D11 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				988267D212693A1B382F1287DC506F06 /* GoogleUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		98BDB6EF91C2D6CF4645A1FE7E2DD4E5 /* GoogleSymbolUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				0A17E18D4F06AE605DD2C33799EE3945 /* Frameworks */,
+				2058924BDF809C488943DFED75153551 /* Frameworks */,
 			);
 			path = GoogleSymbolUtilities;
-			sourceTree = "<group>";
-		};
-		A5A2EB154379038A6796F7A9AD9006A5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AA177A3A8E4E2D6243AABCA6A1688E6B /* GoogleInterchangeUtilities.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A857E1DD3DEDA4EA6A8F24D251BAA781 /* Products */ = {
@@ -361,21 +366,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B614E23CD97489732C972EB038C1D941 /* GoogleInterchangeUtilities */ = {
+		A8BF3DF5551E9DF2D3CCB4610EF2F5EB /* Fabric */ = {
 			isa = PBXGroup;
 			children = (
-				A5A2EB154379038A6796F7A9AD9006A5 /* Frameworks */,
+				350269DC72C37599CFF4E639082396D0 /* FABAttributes.h */,
+				0FEEC31834AA3B3F769B8E86A20AE0F9 /* Fabric.h */,
+				3C73337EF3B5420D8230142FBD5BDB3B /* Frameworks */,
 			);
-			path = GoogleInterchangeUtilities;
+			path = Fabric;
 			sourceTree = "<group>";
 		};
-		B86079E33CA3499AC844397493BB89B1 /* FirebaseInstanceID */ = {
+		B8847084D64012432C0EEA130575D6D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6B16B13146F6CC73DFCBFA454EA28E4D /* FIRInstanceID.h */,
-				0C440B44CC67E28152791EE8631A794D /* Frameworks */,
+				DA1C4AEB3641504F0A07B37286C75614 /* GoogleUtilities.framework */,
 			);
-			path = FirebaseInstanceID;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -384,6 +390,36 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D7447836CFE65D63F4DF05F89DF8CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F474702D87EFC9A8F1B3A40E66E07F1C /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C497538D033A6102BC07D17A6F663553 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58F6F6B323D707AE3A92FFA065013F0E /* Canvas.modulemap */,
+				76E57DFF16D1B86F2D1542AC2394596C /* Canvas.xcconfig */,
+				0431769E7DF7C0698A6E244DA8BBEA91 /* Canvas-dummy.m */,
+				6893E5E2F4F7E3B67D0824C3E9B0EECC /* Canvas-prefix.pch */,
+				20E6284AA6B260F004FC09B6C120106D /* Canvas-umbrella.h */,
+				14E6AD4A6105941F0F4073B221B5347D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Canvas";
+			sourceTree = "<group>";
+		};
+		C9CF6E62188080E07ED1287EB56A40A6 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				DE109B3A9D3D92A6CFB35F6DAFA99B58 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
 		CAC39D00F04A3DD28971D173F5487E7E /* Pods-Berrywood HomesTests */ = {
@@ -404,81 +440,49 @@
 			path = "Target Support Files/Pods-Berrywood HomesTests";
 			sourceTree = "<group>";
 		};
-		D1D2E2559FD5938AC5152D58CF8E7DD6 /* FirebaseAnalytics */ = {
+		CBDF1BAF045ADF22B67D2568D221C02D /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				DDBE675C34ACB7366A6C5FED00BE5EE4 /* Frameworks */,
+				962D54F93FD423A1C1F95DCB6F6814E4 /* Firebase.h */,
 			);
-			path = FirebaseAnalytics;
+			name = Analytics;
 			sourceTree = "<group>";
 		};
-		D721CE5670DE67641F0321B686D6EE62 /* Frameworks */ = {
+		DC7BB74A171DF5E28AA30F7A99ABF7D3 /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
-				78749234572EBEACE576D044E4DB7DD7 /* TwitterKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D74E482EB97D41F46283E91BAB0B28AF /* Fabric */ = {
-			isa = PBXGroup;
-			children = (
-				3C3E78427222018AD1CC3A936947107F /* Frameworks */,
-			);
-			path = Fabric;
-			sourceTree = "<group>";
-		};
-		DDBE675C34ACB7366A6C5FED00BE5EE4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				83C3ABDB5DCAE634919182D33BFC1E9D /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E142970CEA209450F194F8D6FBEA5662 /* Canvas */ = {
-			isa = PBXGroup;
-			children = (
-				6559DA8F89C282C52D9F39B99F0D1F85 /* Canvas.h */,
-				3254A92CDACE593531C8E5D79E6908EF /* CSAnimation.h */,
-				BB2B712BE6EBF185A616C55717DD6AD1 /* CSAnimation.m */,
-				EAA0EE6C2978470D6330641CEBFA0804 /* CSAnimationView.h */,
-				51129BC25AB3116AE14D04B3A08D4B02 /* CSAnimationView.m */,
-				21D9D90B01CC0335992694EFF5759728 /* CSBlurView.h */,
-				219368DDA30C5AAD859559F8ADF131EF /* CSBlurView.m */,
-				C3D29915A81C281EE94431DDD3E164E6 /* CSNavigationController.h */,
-				E996C1AFD5AD95029814E9519D1CF790 /* CSNavigationController.m */,
-				FA6365A9DD7344563D0F8D9AB4064FAF /* UIButton+TCCustomFont.h */,
-				A9F7B0C64094CB24F02C1A1FA1162B1A /* UIButton+TCCustomFont.m */,
-				82274346622B42FF3ECB7C391AFF1F7B /* UILabel+TCCustomFont.h */,
-				D0701EDD7C5E068E3729369F4177677B /* UILabel+TCCustomFont.m */,
-				DCBA9DE2B3645625032E6AB9FED9F02E /* UINavigationBar+TCCustomFont.h */,
-				E15BA9420E6E94464E0BA274A911FB93 /* UINavigationBar+TCCustomFont.m */,
-				A93733BF22C96535C7A9FC105D526269 /* UITextField+PlaceholderColor.h */,
-				60C2B89BBDD227DD32031CE46ED8F2E9 /* UITextField+PlaceholderColor.m */,
-				CE7936E53764390FF76D7B1E08770448 /* UITextField+TCCustomFont.h */,
-				4F9E5DD0269BAC7E23F5EA6476757637 /* UITextField+TCCustomFont.m */,
-				D1718047F17BE7C1519F2B61B7A24392 /* UITextView+TCCustomFont.h */,
-				34FF3DB488C894C9555A17046E175CBA /* UITextView+TCCustomFont.m */,
-				00E117808C05764445020B333728C89C /* Support Files */,
+				A985F02B4472ECA3F6BCD53D9063EF69 /* Canvas.h */,
+				2FE1A3DAB30B1D086E2D0ACC2BFAFEDB /* CSAnimation.h */,
+				BEA5D51F2895BCC15EB342C81B760174 /* CSAnimation.m */,
+				1B63067BB9CB1A06AEF08A94EAC2C357 /* CSAnimationView.h */,
+				21852C96518CA538579FB57FF351950C /* CSAnimationView.m */,
+				59D3D1B4378502F1E0BA0EDF55B697A2 /* CSBlurView.h */,
+				2ACEC439688977A1D7A418A7748E901C /* CSBlurView.m */,
+				090B95C0F471DE3C2B4F066E3F9D8569 /* CSNavigationController.h */,
+				A932E03B9AC1AD2A028BA77CABC0BD87 /* CSNavigationController.m */,
+				8DE42963072A0ACB652F1DD7A1D7FE81 /* UIButton+TCCustomFont.h */,
+				3E1324ED6F0BCD861C91531559A93A73 /* UIButton+TCCustomFont.m */,
+				EE757DF72669802FF081EC6221911ACB /* UILabel+TCCustomFont.h */,
+				C179F7C096C47099E7FD904AA51EF213 /* UILabel+TCCustomFont.m */,
+				B33E0F2859F480BFCFA1B74F5A26B462 /* UINavigationBar+TCCustomFont.h */,
+				5B5F0182DEC9CFAC7FB328F525897B45 /* UINavigationBar+TCCustomFont.m */,
+				1CCA03E8D73359EBD8B20CFE878C9865 /* UITextField+PlaceholderColor.h */,
+				A6FC9A8AC0ADC41DF412C8C801B4A9B5 /* UITextField+PlaceholderColor.m */,
+				C44EEC5C3F7492209F1E894AF90C5CFF /* UITextField+TCCustomFont.h */,
+				58A0C17EF2D0B9426ABEF87126B0EB8D /* UITextField+TCCustomFont.m */,
+				D20FC13BB8D48A9CB5E18AC9F235E12B /* UITextView+TCCustomFont.h */,
+				520CFD4CC9A0A17FB75075B00305456E /* UITextView+TCCustomFont.m */,
+				C497538D033A6102BC07D17A6F663553 /* Support Files */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
 		};
-		E4AF19F6E2C53DDDD4E6A260A0466D15 /* Resources */ = {
+		DE109B3A9D3D92A6CFB35F6DAFA99B58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7C46BB9213BB61969B5D35455491DDD9 /* TwitterKitResources.bundle */,
+				A83C018251B582F0B91DE394988D0022 /* GoogleInterchangeUtilities.framework */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		F4B510794CD807757960D3E7A4876DCE /* GoogleUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				98AD1E3FE9BB5C2143102EA9B46C640F /* Frameworks */,
-			);
-			path = GoogleUtilities;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -727,7 +731,7 @@
 		};
 		11C0C7140C148658206745E69F1D5D13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EA8D8722872A992C29C0B1DFDD433F6 /* Canvas.xcconfig */;
+			baseConfigurationReference = 76E57DFF16D1B86F2D1542AC2394596C /* Canvas.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -921,7 +925,7 @@
 		};
 		BE07B89A511424DDEB980347B099DAAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EA8D8722872A992C29C0B1DFDD433F6 /* Canvas.xcconfig */;
+			baseConfigurationReference = 76E57DFF16D1B86F2D1542AC2394596C /* Canvas.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

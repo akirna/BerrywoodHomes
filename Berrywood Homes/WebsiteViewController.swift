@@ -15,7 +15,7 @@ class WebsiteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = NSURL(string: "http://www.berrywoodhomesllc.com")
-        webView.loadRequest(NSURLRequest(URL: url!))
+        let url = URL(string: "http://www.berrywoodhomesllc.com")
+        webView.loadRequest(URLRequest(url: url!))
     }
 }

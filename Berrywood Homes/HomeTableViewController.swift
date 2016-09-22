@@ -24,15 +24,15 @@ class HomeTableViewController: TWTRTimelineViewController {
     ///
     func configureView() {
         let client = TWTRAPIClient()
-        self.dataSource = TWTRUserTimelineDataSource(screenName: "archdigest", APIClient: client)
+        self.dataSource = TWTRUserTimelineDataSource(screenName: "archdigest", apiClient: client)
         if custom {
-            TWTRTweetView.appearance().backgroundColor = UIColor.lightGrayColor()
-            TWTRTweetView.appearance().primaryTextColor = UIColor.whiteColor()
+            TWTRTweetView.appearance().backgroundColor = UIColor.lightGray
+            TWTRTweetView.appearance().primaryTextColor = UIColor.white
         } else {
-            TWTRTweetView.appearance().theme = TWTRTweetViewTheme.Light
+            TWTRTweetView.appearance().theme = TWTRTweetViewTheme.light
         }
         TWTRTweetView.appearance().linkTextColor = berrywoodColor
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "berrywoodhomesbanner"), forBarMetrics: .Default)
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "berrywoodhomesbanner"), for: .default)
     }
     
     // MARK: - Table view data source
@@ -53,7 +53,7 @@ class HomeTableViewController: TWTRTimelineViewController {
 
     // MARK: - Navigation
 
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
